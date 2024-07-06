@@ -78,7 +78,7 @@ function App() {
     [fetchMovies]
   );
 
-  const handleOnChange = debounce((e) => {
+  const handleOnChange = debounce((e: React.ChangeEvent<HTMLInputElement>) => {
     setSearch(e.target.value);
   }, 500);
 
