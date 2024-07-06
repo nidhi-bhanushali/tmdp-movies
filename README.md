@@ -1,30 +1,23 @@
-# React + TypeScript + Vite
+This project has been made with **React and TypeScript**.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Things covered
 
-Currently, two official plugins are available:
+1. Movie List by year sorted in descending order of popularity starting from 2012 on load.
+2. Multiselect filter of genre. Fresh list of movies are fetched when genres change
+3. Infinite scroll implemented using intersection observer for scroll down
+4. Infinite scroll implemented using scroll event listener for scroll up
+5. Search functionality to search movie by title with infinite scroll using intersection observer
+6. Entire application is built using TypeScript for type safety and quality
+7. Very minimal use of external libraries
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Few things not covered
 
-## Expanding the ESLint configuration
+1. Mobile application in react-native instead of web application
+2. The scroll up infinite scroll is not the smoothest. It works but can be improved
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### To run the project
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- you will need node version of ^18.18 and also typescript
+- clone the repository
+- `npm run install`
+- `npm run dev`
