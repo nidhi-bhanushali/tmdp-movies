@@ -34,10 +34,10 @@ const MovieList = (props: MovieListProps) => {
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
-              height: "80vh",
+              height: "200px",
             }}
           >
-            <img alt="Saving" src={spinningGif} height={120} width={120} />
+            <img alt="Saving" src={spinningGif} height={60} width={60} />
           </div>
         )}
       </StyledGrid>

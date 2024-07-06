@@ -1,5 +1,7 @@
 This project has been made with **React and TypeScript**.
 
+### It has been deployed on - [Movie List App](https://tmdp-movies.vercel.app/)
+
 ### Things covered
 
 1. Movie List by year sorted in descending order of popularity starting from 2012 on load.
