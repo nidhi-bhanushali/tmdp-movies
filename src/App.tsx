@@ -7,7 +7,7 @@ import styled from "styled-components";
 import useIntersectionObserver from "./hooks/useIntersectionObserver";
 import SearchInput from "./components/SearchInput";
 import SearchResults from "./MovieList/SearchResults";
-import { debounce } from "lodash";
+import { debounce } from "./helpers";
 import { StyledMovieList } from "./commonStyles";
 
 const MainContainer = styled.div`
