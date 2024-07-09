@@ -17,6 +17,7 @@ This project has been made with **React and TypeScript**.
 1. Mobile application in react-native instead of web application
 2. The scroll up infinite scroll is not the smoothest. It works but can be improved
 3. Errors are not handled very well
+4. The performance can be improved by implementing virtualization for lists
 
 ### To run the project
 
