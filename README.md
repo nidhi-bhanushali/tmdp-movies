@@ -12,13 +12,6 @@ This project has been made with **React and TypeScript**.
 6. Entire application is built using TypeScript for type safety and quality
 7. Very minimal use of external libraries
 
-### Few things not covered
-
-1. Mobile application in react-native instead of web application
-2. The scroll up infinite scroll is not the smoothest. It works but can be improved
-3. Errors are not handled very well
-4. The performance can be improved by implementing virtualization for lists
-
 ### To run the project
 
 - you will need node version of ^18.18 and also typescript
